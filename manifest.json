@@ -1,63 +1,20 @@
 {
 	"files": {
 		"index.js": "dc1a20e611c4743c8eeace1c4f32c06d7f9c0c77aa0273f323719c38121cc38d",
-		"module.json": "54c747c418bfec04d54c89cd3eca40d4498a16e68752a8e2ba54699b158f7e81",
-		"lib/me.js": "296de1a3d407b01fd69f415b28367b590216bc805d925f87e15b05aa2e8856c8",
-		"lib/contract.js": "b2ac565e3790cfde273ca11cc9808d4c7a3ec3056f5de2102c0000fdf09208b3",
-		"lib/glyphs.js": "13555b5b42fed52dfbcc5763f61711e56e2fd6513d90b2edc487825d347ff67e",
-		"lib/inventory.js": "0250e40552430e02cd2274ca190fac96e617823634548a4fd18f97bfbbc80957",
-		"lib/talents.js": "1040f8e53279b534eba97f8fa59a980f2ef62717528a893b33fa27ef608a6738",
-		"doc/contract.md": "76f8a1128cc9ead287a836e198fa51430169d9fc5bf6579a654d957768ed5131",
-		"doc/data.md": "3ecdf0dab30eca60f21ca83deebd3862c1ec7b2c20cb33ee5b9dfad0beef6531",
-		"doc/glyphs.md": "722556e9f968406703c1219364b6006bf75d863683829ff5f48cb3d3706c120d",
-		"doc/inventory.md": "dc40645a73019fddd161842c5f6487dce7a0b8021594b86a2eaa07b529edfb2d",
-		"doc/talents.md": "6f13e991a4c63f4303495f45c21275c77bf2829607d4a22f535c880807174ce6",
-		"doc/me.md": "8ffe87b1ca7c0b78932c2ba2607f95549e9b4491e18c69580fff9d25294e4b59",
-		"README.md": "720ca6f8b297136d92bea2ee1676de5ec0c4cee36cd77d04124e45f1bd9f4163",
+		"module.json": "5448337b534550f7aae0fd1344945914f20aabd1d0530fc30729adda0fe8a245",
+		"lib/me.js": "06ccd7e6aa10f175607f4671c3b6bd7aeb7000a7f6da473fecbdf8394e74e28e",
+		"lib/contract.js": "23b979179caf0fe21b22501d166b4a393af3bbabbfa48915df1323c77142bace",
+		"lib/glyphs.js": "0c3c5e48f39fadc6ac0189712f78d2557e18eaaae967044758cd89a42bbd59d2",
+		"lib/inventory.js": "85446f663728bb26117d0fc30f95f486fc33ff50e5e4ca60158befd0b263fd89",
+		"lib/talents.js": "82364a1f92e7e82eb594c1d707ada0435117c0baf2172d7871da1e8c598a061c",
+		"doc/contract.md": "f872ec8ac7fdd48c7cc7ef1b5cd164b6221b467f0ce422ed30f3e2fee187cd59",
+		"doc/data.md": "82470c169c0354f6500f0456804d72c310ef3ea63cc2c4677b0cbdd17798f850",
+		"doc/glyphs.md": "282cd028c37e8afa28dd22bcd1d638bceb1447e60858a8a6b21fe327d874b4be",
+		"doc/inventory.md": "a9cff75b917845bbe4c1d37ea2bd6500597e30978156c066900d5115f0b5b22d",
+		"doc/talents.md": "659586de327eea7ed7d669dfb629304c0b118bccf41f4c09b938a94a7914f01b",
+		"doc/me.md": "80239e1d6d6e2afee5b0e330f476abed736e69209a77cb462fbfef227927e4e3",
+		"README.md": "d1afb5b1788c98b762ecc2cc29db922a346e29c6bc62e57769dfbc9cb6aff683",
 		"doc/party.md": "b3f2cc47d24a0965f0eeef0c09353720122738f1631a6263601f8b192c8cf2f4",
 		"lib/party.js": "ab87c1fbd14fad8e45a2e5760aac80faf9345efc545d3531e343f69d5c9720ce"
-	},
-	"defs": {
-		"C_LOGIN_ARBITER": 2,
-		"S_LOGIN_ACCOUNT_INFO": 2,
-		"S_GET_USER_LIST": "event",
-		"S_RETURN_TO_LOBBY": "event",
-		"S_LOGIN": [
-			"event",
-			14
-		],
-		"S_LOAD_TOPO": [
-			"event",
-			3
-		],
-		"S_SPAWN_ME": [
-			"event",
-			3
-		],
-		"S_CREATURE_LIFE": 3,
-		"S_MOUNT_VEHICLE": 2,
-		"S_UNMOUNT_VEHICLE": 2,
-		"S_EXIT": "event",
-		"S_USER_CHANGE_NAME": 1,
-		"S_USER_LEVELUP": 2,
-		"S_USER_STATUS": 3,
-		"S_REQUEST_CONTRACT": 1,
-		"S_ACCEPT_CONTRACT": "event",
-		"S_REJECT_CONTRACT": "event",
-		"S_CANCEL_CONTRACT": "event",
-		"S_INVEN_USERDATA": 2,
-		"S_ITEMLIST": [
-			3,
-			4
-		],
-		"S_LOAD_EP_INFO": [
-			1,
-			2
-		],
-		"S_LEARN_EP_PERK": 1,
-		"TTB_S_LOAD_EP_PAGE": 1,
-		"S_RESET_EP_PERK": 1,
-		"S_CREST_INFO": 2,
-		"S_CREST_APPLY": 2
 	}
 }
